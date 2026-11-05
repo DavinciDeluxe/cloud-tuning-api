@@ -1,29 +1,33 @@
-# DaVinci Deluxe Cloud Tuning API
+# DaVinci Deluxe Cloud Edition — Cloud Tuning B2B REST API (v1.0.44)
 
-Automate ECU file processing — **DPF, EGR, AdBlue, DTC-off, Stage 1/2/3** — through the DaVinci Deluxe **Cloud Tuning API**, with automatic checksum correction. Built for workshops, resellers and software integrators.
+Automate **DPF Off, EGR Off, AdBlue/SCR Off, DTC Off, Flaps, Lambda, Stage 1, Stage 2, Pops & Bangs, E85, and VMAX** directly inside your own tuning portal, master-slave file service, or workshop CRM using the official **DaVinci Deluxe Cloud Edition B2B API**.
 
-## How it works
+## ⚡ Quick Architecture Overview
 
-1. **Submit** your original ECU file + the services you want.
-2. The automated engine **processes** it (map edit + checksum/CVN correction).
-3. You get a **webhook** when it's ready and **download** the modified file.
+1. **Read 100% Virgin Original Binary:** Collect the unmodified ECU readout (`.bin`, `.ori`, `.mpc`) from OBD, Bench, or Boot.
+2. **Pre-Check ECU & Available Services:** Query supported services and exact software ID before processing.
+3. **Automated Patch & Checksum Delivery:** Receive the calibrated binary back with automatic Checksum & CVN verification.
 
-No manual review — if a service isn't available for the ECU, the job is auto-rejected and tokens refunded.
+## 💻 Included SDK Examples in This Repository
 
-## 📚 Docs & pricing
+- [`examples/cloud_tuning_client.py`](examples/cloud_tuning_client.py) — Python 3 client with SHA-256 virgin readout verification & catalog query
+- [`examples/cloud_tuning_client.mjs`](examples/cloud_tuning_client.mjs) — Node.js 18+ ES module client
+- [`openapi-summary.json`](openapi-summary.json) — Endpoint reference & payload specification
 
-- **[API pricing](https://www.davincideluxe.fr/api-pricing)**
-- **[Get started](https://www.davincideluxe.fr)**
-
-> B2B integration for tuning platforms, workshops and resellers. Fully automated, checksum-correct files at scale.
+👉 **[View API Plans & Request B2B Credentials at davincideluxe.fr/api-pricing →](https://www.davincideluxe.fr/api-pricing)**
 
 
 ---
 
-### 🔗 DaVinci Deluxe · Cloud Edition
+### ⚠️ 100% Virgin Original ECU File Policy & 24h/7 Engineering Support
 
-- 🌐 Website: **[davincideluxe.fr](https://www.davincideluxe.fr)**
-- ☁️ Cloud Tuning: [upload a file](https://www.davincideluxe.fr/profile)
-- 📋 Supported ECUs: [full list](https://www.davincideluxe.fr/cloud-tuning-supported-ecus.html) · [PDF](https://www.davincideluxe.fr/DaVinci_Deluxe_Supported_List.pdf)
+- **Virgin Original Reads Only:** Always upload **100% original, unmodified ECU files** read directly from the vehicle. Previously modified or tuned files cause bad map detection and errors — **DaVinci Deluxe Cloud Edition** strictly recommends working exclusively on virgin original reads.
+- **24h/7 Live Support (365 Days/Year, Holidays Included):** Whenever you encounter a tricky vehicle or diagnostic procedure, send photos, videos, audio notes or ECU logs in **any language** — our engineering team guides you step-by-step until the vehicle runs 100% right.
 
-<sub>ECU remapping · chiptuning · DPF EGR AdBlue delete · Stage 1/2/3 · automatic checksum correction · automotive tuning software.</sub>
+### 🔗 Official DaVinci Deluxe Cloud Edition Links
+
+- 🌐 **Official Website:** **[www.davincideluxe.fr](https://www.davincideluxe.fr)**
+- 🚛 **Trucks, Agriculture & Heavy-Duty Engine:** **[www.davincideluxe.fr/trucks.html](https://www.davincideluxe.fr/trucks.html)**
+- ☁️ **Online Cloud Tuning (Pay-Per-Use, Tokens Never Expire):** **[www.davincideluxe.fr/online-ecu-tuning](https://www.davincideluxe.fr/online-ecu-tuning)**
+- 🛒 **Official Digital Shop (300+ DAMOS, A2L, ORI & Pinouts):** **[www.davincideluxe.fr/shop](https://www.davincideluxe.fr/shop)**
+- 📘 **Developer & ECU Coverage Portal:** **[davincideluxe.github.io](https://davincideluxe.github.io)**
