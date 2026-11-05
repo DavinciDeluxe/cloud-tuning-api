@@ -7,18 +7,27 @@
   "servers": [
     {
       "url": "https://www.davincideluxe.fr"
-    }
-  ],
-  "paths": {
-    "/api/check/catalog": {
-      "get": {
-        "summary": "Retrieve live supported Cars or Trucks ECU catalog"
-      }
     },
-    "/api/check/file": {
-      "post": {
-        "summary": "Analyze virgin original ECU binary and list supported services"
-      }
+    {
+      "url": "https://www.davincideluxe.org"
+    },
+    {
+      "url": "https://www.davincideluxe.app"
+    },
+    {
+      "url": "https://www.davincideluxe.software"
+    },
+    {
+      "url": "https://www.davincideluxe.es"
+    },
+    {
+      "url": "https://www.davincideluxe.de"
+    },
+    {
+      "url": "https://www.davincideluxe.it"
+    },
+    {
+      "url": "https://www.aesoftech.eu"
     }
-  }
+  ]
 }
