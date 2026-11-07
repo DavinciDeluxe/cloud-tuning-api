@@ -1,4 +1,4 @@
-# DaVinci Deluxe Cloud Edition — Cloud Tuning B2B REST API (v1.0.44)
+# DaVinci Deluxe Cloud Edition — Cloud Tuning B2B REST API (v1.0.45)
 
 Automate **DPF Off, EGR Off, AdBlue/SCR Off, DTC Off, Flaps, Lambda, Stage 1, Stage 2, Pops & Bangs, E85, and VMAX** inside your own tuning portal or master-slave file service using the official **DaVinci Deluxe Cloud Edition B2B API**.
 
