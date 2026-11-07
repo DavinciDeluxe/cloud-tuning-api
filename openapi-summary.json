@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "DaVinci Deluxe Cloud Edition B2B & Catalog API",
-    "version": "1.0.44"
+    "version": "1.0.45"
   },
   "servers": [
     {
