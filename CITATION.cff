@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 title: "B2B Cloud ECU Calibration REST API (/api/v1/cloud/*), 9 SDKs & OpenAPI 3.1 — DaVinci Deluxe Cloud Edition (v1.0.45)"
 version: "1.0.45"
-date-released: "2026-11-09"
+date-released: "2026-11-10"
 url: "https://www.davincideluxe.fr/developers"
 repository-code: "https://github.com/DavinciDeluxe/cloud-tuning-api"
 authors:
